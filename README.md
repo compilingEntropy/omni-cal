@@ -20,4 +20,8 @@ I recommend running this script on a cron, every 10 minutes or so, to keep your 
 ### Tasks don't get added / updated right away
 OmniFocus 3 does something weird where it stages commits to its database for a while before writing them. It's usually less than an hour or so.
 
-Disclaimer: I am not affiliated with OmniGroup and this code is in no way affiliated with their team
+#### Credits
+Shout out to OmniGroup for actually providing a python script on [their repo](https://github.com/omnigroup/OmniGroup) which we use to decrypt the database. This would have been a very long project if I'd have had to reverse engineer and implement that myself, but it's all very well documented and their team definitely deserves props.
+
+-----
+Disclaimer: I am not affiliated with OmniGroup and this code is in no way affiliated with their team.
