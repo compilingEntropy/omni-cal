@@ -6,11 +6,9 @@ import os.path
 import datetime
 from dateutil import parser
 import ics
-import pickle
 import configparser
 from webdav3.client import Client
 import zipfile
-from collections import OrderedDict
 
 from pprint import pprint
 
